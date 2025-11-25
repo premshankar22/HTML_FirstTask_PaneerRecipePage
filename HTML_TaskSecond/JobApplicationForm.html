@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Application Form</title>
+</head>
+
+<!-- BACKGROUND -->
+<body bgcolor="#e6f2ff">
+
+  <!-- HEADER BAR -->
+  <table width="100%" bgcolor="#003366" cellpadding="15">
+    <tr>
+      <td align="center">
+        <font color="white" size="5"><b>Job Application Form</b></font>
+      </td>
+    </tr>
+  </table>
+  <br>
+
+  <!-- OUTER SHADOW EFFECT TABLE -->
+  <table width="640" align="center" bgcolor="#bcd4e6" cellpadding="8">
+    <tr>
+      <td>
+
+        <!-- INNER MAIN FORM TABLE (rounded using padding inside outer table) -->
+        <form>
+          <table border="1" cellpadding="10" cellspacing="0" width="600" align="center" bordercolor="#003366">
+
+            <!-- Row 1 -->
+            <tr bgcolor="#ffffff">
+              <td width="200">Job Title:</td>
+              <td><input type="text" name="job_title" required></td>
+            </tr>
+
+            <!-- Row 2 -->
+            <tr bgcolor="#f7fbff">
+              <td valign="top">Description:</td>
+              <td>
+                <textarea name="description" rows="4" cols="40" maxlength="500" style="resize:none;" required></textarea><br>
+                <small>Brief Description should have at most 500 characters</small>
+              </td>
+            </tr>
+
+            <!-- Row 3 -->
+            <tr bgcolor="#ffffff">
+              <td>Company Name:</td>
+              <td><input type="text" name="company_name" required></td>
+            </tr>
+
+            <!-- Row 4 -->
+            <tr bgcolor="#f7fbff">
+              <td>Contact Number:</td>
+              <td><input type="tel" name="contact_number" required></td>
+            </tr>
+
+            <!-- Row 5 -->
+            <tr bgcolor="#ffffff">
+              <td>Contact Person:</td>
+              <td><input type="text" name="contact_person" required></td>
+            </tr>
+
+            <!-- Row 6 -->
+            <tr bgcolor="#f7fbff">
+              <td>Email:</td>
+              <td><input type="email" name="email" required></td>
+            </tr>
+
+            <!-- Row 7 -->
+            <tr bgcolor="#ffffff">
+              <td valign="top">Work Status:</td>
+              <td>
+                <input type="checkbox" value="Full Time"> Full Time &nbsp;&nbsp;
+                <input type="checkbox" value="Part Time"> Part Time<br>
+                <input type="checkbox" value="Per Dim"> Per Dim &nbsp;&nbsp;
+                <input type="checkbox" value="Others"> Others
+              </td>
+            </tr>
+
+            <!-- Row 8 -->
+            <tr bgcolor="#f7fbff">
+              <td>Salary:</td>
+              <td>
+                <input type="text" name="salary" required>
+                <select name="salary_currency" required>
+                  <option selected>US Dollar</option>
+                  <option>Rupee</option>
+                  <option>Pound</option>
+                  <option>Euro</option>
+                </select>
+                <select name="salary_type" required>
+                  <option selected>Yearly</option>
+                  <option>Monthly</option>
+                  <option>Weekly</option>
+                  <option>Daily</option>
+                </select>
+              </td>
+            </tr>
+
+            <!-- Row 9 -->
+            <tr bgcolor="#ffffff">
+              <td>Experience (Years):</td>
+              <td><input type="number" name="experience" min="0" required></td>
+            </tr>
+
+            <!-- Row 10 -->
+            <tr bgcolor="#f7fbff">
+              <td>Location:</td>
+              <td><input type="text" name="location" required></td>
+            </tr>
+
+            <!-- Row 11 -->
+            <tr bgcolor="#ffffff">
+              <td>Qualification:</td>
+              <td>
+                <select name="qualification" required>
+                  <option selected>Any</option>
+                  <option>High School</option>
+                  <option>Associate</option>
+                  <option>Pre Bachelors</option>
+                </select>
+              </td>
+            </tr>
+
+            <!-- Row 12 -->
+            <tr bgcolor="#f7fbff">
+              <td>Selected:</td>
+              <td><input type="text" value="Any" readonly></td>
+            </tr>
+
+            <!-- Submit Row -->
+            <tr bgcolor="#e0ecf9">
+              <td colspan="2" align="center">
+                <button type="submit">Submit</button>
+                &nbsp;&nbsp;
+                <button type="reset">Reset</button>
+              </td>
+            </tr>
+
+          </table>
+        </form>
+
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
