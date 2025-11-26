@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration Form</title>
+</head>
+
+<body bgcolor="#e6f2ff">
+
+  <!-- HEADER BAR -->
+  <table width="100%" bgcolor="#003366" cellpadding="15">
+    <tr>
+      <td align="center">
+        <font color="white" size="5"><b>STUDENT REGISTRATION FORM</b></font>
+      </td>
+    </tr>
+  </table>
+  <br>
+
+  <!-- OUTER SHADOW STYLE TABLE -->
+  <table width="700" bgcolor="#bcd4e6" cellpadding="10" align="center">
+    <tr>
+      <td>
+
+        <!-- MAIN FORM WITH PURPLE BACKGROUND -->
+        <form>
+          <table border="1" cellpadding="10" cellspacing="0" width="650" align="center"
+                 bordercolor="#003366" bgcolor="#834bff">
+
+            <!-- FIRST NAME -->
+            <tr bgcolor="#ffffff">
+              <td width="220">FIRST NAME:<br><small>(Max 30 characters, A-Z/a-z)</small></td>
+              <td><input type="text" maxlength="30" required style="background:white;"></td>
+            </tr>
+
+            <!-- LAST NAME -->
+            <tr bgcolor="#f7fbff">
+              <td>LAST NAME:<br><small>(Max 30 characters, A-Z/a-z)</small></td>
+              <td><input type="text" maxlength="30" required style="background:white;"></td>
+            </tr>
+
+            <!-- DOB -->
+            <tr bgcolor="#ffffff">
+              <td>DATE OF BIRTH:</td>
+              <td>
+                <!-- Day -->
+                <select required style="background:white;">
+                  <option value="">Day</option>
+                  <script>
+                    for(let d=1; d<=31; d++){document.write(`<option>${d}</option>`);}
+                  </script>
+                </select>
+
+                <!-- Month -->
+                <select required style="background:white;">
+                  <option value="">Month</option>
+                  <option>Jan</option><option>Feb</option><option>Mar</option>
+                  <option>Apr</option><option>May</option><option>Jun</option>
+                  <option>Jul</option><option>Aug</option><option>Sep</option>
+                  <option>Oct</option><option>Nov</option><option>Dec</option>
+                </select>
+
+                <!-- Year -->
+                <select required style="background:white;">
+                  <option value="">Year</option>
+                  <script>
+                    for(let y=2025; y>=1950; y--){document.write(`<option>${y}</option>`);}
+                  </script>
+                </select>
+              </td>
+            </tr>
+
+            <!-- EMAIL -->
+            <tr bgcolor="#f7fbff">
+              <td>EMAIL ID:</td>
+              <td><input type="email" required style="background:white;"></td>
+            </tr>
+
+            <!-- MOBILE -->
+            <tr bgcolor="#ffffff">
+              <td>MOBILE NUMBER:<br><small>(10 digit number)</small></td>
+              <td><input type="text" maxlength="10" required style="background:white;"></td>
+            </tr>
+
+            <!-- GENDER -->
+            <tr bgcolor="#f7fbff">
+              <td>GENDER:</td>
+              <td>
+                <input type="radio" name="gender" value="Male" required> Male
+                <input type="radio" name="gender" value="Female" required> Female
+                <input type="radio" name="gender" value="Other" required> Other
+              </td>
+            </tr>
+
+            <!-- ADDRESS -->
+            <tr bgcolor="#ffffff">
+              <td>ADDRESS:</td>
+              <td>
+                <textarea rows="4" cols="40" style="resize:none; background:white;" required></textarea>
+              </td>
+            </tr>
+
+            <!-- CITY -->
+            <tr bgcolor="#f7fbff">
+              <td>CITY:<br><small>(Max 30 characters)</small></td>
+              <td><input type="text" maxlength="30" required style="background:white;"></td>
+            </tr>
+
+            <!-- PIN CODE -->
+            <tr bgcolor="#ffffff">
+              <td>PIN CODE:<br><small>(6 digit number)</small></td>
+              <td><input type="text" maxlength="6" required style="background:white;"></td>
+            </tr>
+
+            <!-- STATE -->
+            <tr bgcolor="#f7fbff">
+              <td>STATE:<br><small>(Max 30 characters)</small></td>
+              <td><input type="text" maxlength="30" required style="background:white;"></td>
+            </tr>
+
+            <!-- COUNTRY -->
+            <tr bgcolor="#ffffff">
+              <td>COUNTRY:</td>
+              <td><input type="text" value="India" readonly style="background:white;"></td>
+            </tr>
+
+            <!-- HOBBIES -->
+            <tr bgcolor="#f7fbff">
+              <td>HOBBIES:</td>
+              <td>
+                <input type="checkbox" value="Drawing"> Drawing
+                <input type="checkbox" value="Singing"> Singing
+                <input type="checkbox" value="Dancing"> Dancing
+                <input type="checkbox" value="Sketching"> Sketching
+                <input type="checkbox" value="Other"> Other
+                <br><br>
+                If Other: <input type="text" style="background:white;">
+              </td>
+            </tr>
+
+            <!-- QUALIFICATION SECTION -->
+            <tr bgcolor="#ffffff">
+              <td colspan="2" align="center">
+                <font size="4"><b>QUALIFICATION</b></font><br><br>
+
+                <table border="1" cellpadding="8" cellspacing="0" width="95%">
+                  <tr bgcolor="#d9e6f7">
+                    <th>Sr. No.</th>
+                    <th>Examination</th>
+                    <th>Board<br><small>(10 char max)</small></th>
+                    <th>Percentage<br><small>(upto 2 decimal)</small></th>
+                    <th>Year of Passing</th>
+                  </tr>
+
+                  <tr>
+                    <td>1</td>
+                    <td>Class X</td>
+                    <td><input type="text" maxlength="10" style="background:white;"></td>
+                    <td><input type="text" style="background:white;"></td>
+                    <td><input type="text" style="background:white;"></td>
+                  </tr>
+
+                  <tr>
+                    <td>2</td>
+                    <td>Class XII</td>
+                    <td><input type="text" maxlength="10" style="background:white;"></td>
+                    <td><input type="text" style="background:white;"></td>
+                    <td><input type="text" style="background:white;"></td>
+                  </tr>
+
+                  <tr>
+                    <td>3</td>
+                    <td>Graduation</td>
+                    <td><input type="text" maxlength="10" style="background:white;"></td>
+                    <td><input type="text" style="background:white;"></td>
+                    <td><input type="text" style="background:white;"></td>
+                  </tr>
+
+                  <tr>
+                    <td>4</td>
+                    <td>Masters</td>
+                    <td><input type="text" maxlength="10" style="background:white;"></td>
+                    <td><input type="text" style="background:white;"></td>
+                    <td><input type="text" style="background:white;"></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- COURSES -->
+            <tr bgcolor="#f7fbff">
+              <td>COURSES APPLIED FOR:</td>
+              <td>
+                <input type="radio" name="course" value="BCA" required> BCA
+                <input type="radio" name="course" value="B.Sc" required> B.Sc
+                <input type="radio" name="course" value="B.Com" required> B.Com
+                <input type="radio" name="course" value="B.A" required> B.A
+              </td>
+            </tr>
+
+            <!-- BUTTONS -->
+            <tr bgcolor="#e0ecf9">
+              <td colspan="2" align="center">
+                <button type="submit">Submit</button>
+                &nbsp;&nbsp;
+                <button type="reset">Reset</button>
+              </td>
+            </tr>
+
+          </table>
+        </form>
+
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
