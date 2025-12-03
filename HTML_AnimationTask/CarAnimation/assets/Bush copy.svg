@@ -1,0 +1,19 @@
+<svg width="180" height="120" viewBox="0 0 180 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shadow -->
+  <ellipse cx="90" cy="110" rx="55" ry="10" fill="rgba(0,0,0,0.18)"></ellipse>
+
+  <!-- Bush body -->
+  <g>
+    <circle cx="55" cy="90" r="30" fill="#2e7d32"></circle>
+    <circle cx="90" cy="85" r="35" fill="#3fa746"></circle>
+    <circle cx="125" cy="90" r="30" fill="#2e7d32"></circle>
+    <circle cx="75" cy="70" r="26" fill="#3fa746"></circle>
+    <circle cx="105" cy="70" r="24" fill="#3fa746"></circle>
+  </g>
+
+  <!-- Highlights -->
+  <g opacity="0.4">
+    <circle cx="82" cy="72" r="10" fill="#70e671"></circle>
+    <circle cx="112" cy="82" r="8" fill="#70e671"></circle>
+  </g>
+</svg>

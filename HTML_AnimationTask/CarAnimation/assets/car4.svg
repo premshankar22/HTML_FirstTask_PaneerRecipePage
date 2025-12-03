@@ -1,0 +1,36 @@
+<svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Car Body Shape -->
+  <path d="M60 140 
+           C60 90, 110 40, 200 40 
+           C290 40, 340 90, 340 140 
+           L340 160 
+           L60 160 
+           Z" fill="#f3e4aa" stroke="#2d2d2d" stroke-width="6"></path>
+
+  <!-- Windows -->
+  <path d="M130 75 
+           Q155 50 200 50 
+           Q245 50 270 75 
+           L270 115 
+           L130 115 
+           Z" fill="#bfe8ff" stroke="#2d2d2d" stroke-width="5"></path>
+
+  <!-- Window Divider -->
+  <line x1="200" y1="50" x2="200" y2="115" stroke="#2d2d2d" stroke-width="5"></line>
+
+  <!-- Door Handles -->
+  <rect x="150" y="120" width="25" height="6" rx="3" fill="#2d2d2d"></rect>
+  <rect x="225" y="120" width="25" height="6" rx="3" fill="#2d2d2d"></rect>
+
+  <!-- Headlight -->
+  <circle cx="75" cy="140" r="12" fill="#ffce57" stroke="#2d2d2d" stroke-width="4"></circle>
+
+  <!-- Taillight -->
+  <circle cx="325" cy="140" r="12" fill="#ff5b5b" stroke="#2d2d2d" stroke-width="4"></circle>
+
+  <!-- Wheel Cutouts (Perfect circle openings) -->
+  <circle cx="130" cy="160" r="28" fill="white" stroke="#2d2d2d" stroke-width="6"></circle>
+  <circle cx="270" cy="160" r="28" fill="white" stroke="#2d2d2d" stroke-width="6"></circle>
+
+</svg>

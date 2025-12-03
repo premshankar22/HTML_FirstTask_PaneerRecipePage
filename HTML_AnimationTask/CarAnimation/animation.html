@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Car Animation</title>
+   <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+
+  <div class="scene">
+      <div class="sky"></div>
+  <div class="sun"></div>
+  <div class="moon"></div>
+    
+  <!-- NEW ASSETS -->
+     <img src="./assets/hills.svg" class="hills-svg">
+  <img src="./assets/grass.svg" class="grass">
+  <img src="./assets/birds.svg" class="birds" alt="Birds">
+  <img src="./assets/birds.svg" class="birds" alt="Birds">
+  <img src="./assets/birds.svg" class="birds" alt="Birds">
+  <img src="./assets/birds.svg" class="birds" alt="Birds">
+  <img src="./assets/tree.svg" class="tree t1" alt="Tree">
+  <img src="./assets/tree.svg" class="tree t2" alt="Tree">
+    <img src="./assets/bush.svg" class="bush b1">
+  <img src="./assets/bush.svg" class="bush b2">
+    <img src="./assets/sign.svg" class="sign">
+ 
+   <img src="./assets/tree.svg" class="tree t1" alt="Tree">
+  <img src="./assets/tree.svg" class="tree t2" alt="Tree">
+  <img src="./assets/hills.svg" class="hills-svg" alt="Hills">
+ <!---- <img src="./assets/road.svg" class="road-svg" alt="Road Graphic"> -->
+
+   <div class="groundLayer">
+    <!-- Grass -->
+   
+
+    <!-- Bush & Tree Group -->
+      
+    <img src="./assets/Bush copy.svg" class="bush bush-left">
+    <img src="./assets/Tree copy.svg" class="tree tree-left">
+
+    <img src="./assets/Bush copy.svg" class="bush bush-right">
+    <img src="./assets/Tree copy.svg" class="tree tree-right">
+    
+
+    <!-- Flowers -->
+    <img src="./assets/Flower.svg" class="flower f1">
+    <img src="./assets/Flower.svg" class="flower f2">
+    <img src="./assets/Flower.svg"  class="flower f3">
+   </div>
+
+    <div class="sun"></div>
+    <div class="moon"></div>
+
+
+    <div class="hills"></div>
+    <div class="road"></div>
+
+    <div class="shadow"></div>
+
+    <!-- car body without wheels -->
+    <img src="./assets/car5.svg" class="car" alt="Car">
+
+    <!-- spinning wheels -->
+    <img src="./assets/wheel2.svg" class="wheel front" alt="Front wheel">
+    <img src="./assets/wheel2.svg" class="wheel back" alt="Back wheel">
+  
+  </div>
+  
+  <script>
+  // Toggle day/night every 7 seconds
+  setInterval(() => {
+    document.body.classList.toggle("night");
+  }, 7000);
+</script>
+
+</body>
+</html>

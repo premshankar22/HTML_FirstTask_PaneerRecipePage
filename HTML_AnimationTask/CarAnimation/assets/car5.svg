@@ -1,0 +1,40 @@
+<svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Car Body -->
+  <path d="
+    M50 140
+    Q60 90 110 70
+    L200 60
+    Q260 60 300 85
+    Q340 110 350 145
+    L350 160
+    L50 160
+    Z" fill="#FF4A4A" stroke="#2d2d2d" stroke-width="6" stroke-linejoin="round"></path>
+
+  <!-- Window Area -->
+  <path d="
+    M120 75
+    L190 70
+    Q240 70 270 95
+    Q290 110 300 135
+    L130 135
+    Q125 120 120 95
+    Z" fill="#BEEAFF" stroke="#2d2d2d" stroke-width="6" stroke-linejoin="round"></path>
+
+  <!-- Window Divider -->
+  <line x1="200" y1="70" x2="200" y2="135" stroke="#2d2d2d" stroke-width="6"></line>
+
+  <!-- Headlight -->
+  <ellipse cx="80" cy="145" rx="16" ry="10" fill="#FFEB8A" stroke="#2d2d2d" stroke-width="5"></ellipse>
+
+  <!-- Taillight -->
+  <ellipse cx="330" cy="145" rx="14" ry="10" fill="#FF7A7A" stroke="#2d2d2d" stroke-width="5"></ellipse>
+
+  <!-- Fake Grill -->
+  <line x1="65" y1="155" x2="90" y2="155" stroke="#2d2d2d" stroke-width="5" stroke-linecap="round"></line>
+
+  <!-- Wheel Cutouts -->
+  <circle cx="135" cy="160" r="30" fill="white" stroke="#2d2d2d" stroke-width="6"></circle>
+  <circle cx="265" cy="160" r="30" fill="white" stroke="#2d2d2d" stroke-width="6"></circle>
+
+</svg>

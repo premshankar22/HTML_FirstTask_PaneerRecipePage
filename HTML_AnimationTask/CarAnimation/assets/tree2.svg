@@ -1,0 +1,10 @@
+<svg width="1000" height="300" viewBox="0 0 1000 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="300" fill="#87CEEB"></rect>
+  <path d="M0 220 
+           Q120 120 250 220 
+           T500 220 
+           T750 220 
+           T1000 220 
+           L1000 300 
+           L0 300 Z" fill="#52b44b" stroke="#2d2d2d" stroke-width="6"></path>
+</svg>
